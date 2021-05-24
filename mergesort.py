@@ -32,7 +32,7 @@ def mergeSort(alist):
   return alist
 
 alist = []
-for i in range(10):
+for i in range(5):
     n = int(input())
     alist.append(n)
     print(mergeSort(alist))
