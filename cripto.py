@@ -1,8 +1,6 @@
-palavra = str(input())
-a=17
-ords=[]
+word = str(input())
 for letra in palavra:
-    ords.append(ord(letra))
+  ords.append(ord(letra))
 
-print("+ Mensagem c/ criptografia minima: ",*ords,sep=" ")
-print("+ Mensagem original: ",palavra)
+print("+ Encrypty message: ",*ords,sep=" ")
+print("+ Original message: ",word)
