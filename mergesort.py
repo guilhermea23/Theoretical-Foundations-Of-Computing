@@ -31,8 +31,9 @@ def mergeSort(alist):
     
   return alist
 
+entry = int(input())
 alist = []
-for i in range(5):
+for i in range(entry):
     n = int(input())
     alist.append(n)
     print(mergeSort(alist))
